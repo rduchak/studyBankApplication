@@ -1,4 +1,4 @@
 var Sequelize = require('sequelize'),
-    sequelize = new Sequelize('postgres://postgres:postgres@localhost:5432/example')
+    sequelize = new Sequelize('postgres://postgres:root@localhost:5432/test')
 
 module.exports = sequelize
